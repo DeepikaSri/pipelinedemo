@@ -16,12 +16,12 @@ pipeline {
   stages {
     stage("QA") {
       steps {
-        timeout(time: true, uint: 'MINUTES') {
-          echo "We're not doing anything particularly special here."
-          echo "Just making sure that we don't take longer than five minutes"
-          echo "Which, I guess, is kind of silly."
-          sh "mvn -version" 
-        }
+       // timeout(time: true, uint: 'MINUTES') {
+        //  echo "We're not doing anything particularly special here."
+        //  echo "Just making sure that we don't take longer than five minutes"
+        //  echo "Which, I guess, is kind of silly."
+        //  sh "mvn -version" 
+       // }
       }
       post {
         success {
