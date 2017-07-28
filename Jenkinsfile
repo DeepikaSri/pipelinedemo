@@ -5,8 +5,8 @@ pipeline {
   }
   
   tools {
-    jdk "jdk8"
-    maven "mvn3.3.8"
+    //jdk "jdk8"
+    //maven "mvn3.3.8"
   }
   
   environment {
@@ -36,7 +36,7 @@ pipeline {
     
     stage('STAGE') {
       tools {
-        maven "mvn3.3.9"
+      //  maven "mvn3.3.9"
       }
       
       steps {
