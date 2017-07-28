@@ -20,7 +20,7 @@ pipeline {
         //  echo "We're not doing anything particularly special here."
         //  echo "Just making sure that we don't take longer than five minutes"
         //  echo "Which, I guess, is kind of silly."
-        //  sh "mvn -version" 
+          sh "mvn -version" 
        // }
       }
       post {
@@ -35,9 +35,9 @@ pipeline {
     }
     
     stage('STAGE') {
-      tools {
+//      tools {
       //  maven "mvn3.3.9"
-      }
+ //     }
       
       steps {
         echo "This time, the Maven version should be 3.3.9"
