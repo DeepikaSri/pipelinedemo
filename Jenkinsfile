@@ -4,10 +4,10 @@ pipeline {
       label "WaveMaker HyScale Pipeline Demo"
   }
   
-  tools {
+//  tools {
     //jdk "jdk8"
     //maven "mvn3.3.8"
-  }
+ // }
   
   environment {
 	BUILD_NUMBER=10
