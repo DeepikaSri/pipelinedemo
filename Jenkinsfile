@@ -84,7 +84,7 @@ pipeline {
   }
 options {
   
-    timeout(time: 60, unit: 'MINUTES')
+    timeout(time: 1, unit: 'MINUTES')
   }
 
 }
