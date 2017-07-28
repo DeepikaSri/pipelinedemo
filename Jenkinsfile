@@ -82,6 +82,8 @@ pipeline {
            body: "Nothing to see here")
     }
   }
+options {
+  
     timeout(time: 60, unit: 'MINUTES')
   }
 
